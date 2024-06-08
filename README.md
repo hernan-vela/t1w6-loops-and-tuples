@@ -69,3 +69,7 @@ Print a right-angled triangle pattern of stars. (st)
 
 ## Practice Example 2
 Count the occurence of a letter in a list
+
+# enumerate() function
+Used to access the index and the value of the elements of the list.
+Use two variables in for loop.
