@@ -1,7 +1,7 @@
 # Intialise total variable
 result = 0
 
-for i in range(11):
+for i in range(101):
     result += i
 
 #Print the final outcome
