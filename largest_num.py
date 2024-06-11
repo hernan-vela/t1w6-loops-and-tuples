@@ -1,9 +1,10 @@
-numbers = [3, 41, 12, 9, 74, 15]
 
-largest = numbers[0]
+integers_list = [ 15, 766, 19, 2, 4, 5, 70, 99, 1, 722]
 
-for i in numbers:
+largest = integers_list[0]
+
+for i in integers_list:
     if i > largest:
         largest = i
 
-print("The largest number is", largest)
+print(f"The largest number of the given list of integers is {largest}")
