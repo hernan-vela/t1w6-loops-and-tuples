@@ -1,15 +1,26 @@
-# animals = ["cat", "dog", "rabbit", "horse"]
+places_to_visit = ["India", "Japan", "Thailand", "Norway", "Colorado-USA", "Iceland", "New Zeland", "Germany"]
+
+for index, place in enumerate(places_to_visit):
+    print(f"{index}: {place}")
 
 
-# for index, animal in enumerate(animals):
-#     print(f"{index}: {animal}")
+#Another example:
+animals = ["cat", "dog", "rabbit", "horse"]
 
-# Using for, if, break and enumerate
-fruits = ["apple", "banana", "cherry", "date"]
+for index, animal in enumerate(animals):
+     print(f"{index}: {animal}")
 
-target = "cherry"
+# # Using for, if, break and enumerate
+# fruits = ["apple", "banana", "cherry", "date"]
 
-for index, fruit in enumerate(fruits):
-    if fruit == target:
-        print(f"Found '{target}' at index {index}")
-        break
+# target = "cherry"
+
+# for index, fruit in enumerate(fruits):
+#     if fruit == target:
+#         print(f"Found '{target}' at index {index}")
+#         break
+
+family = ["dad", "mom", "sister", "brother", "gumpling", "mother-inlaw", "sister-inlaw", "Andrew"]
+
+for index, person in enumerate(family):
+    print(f"{index}: {person}")

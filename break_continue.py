@@ -15,24 +15,26 @@ while i < 10:
     if i == 3:
         continue
     print(i)
+   
+print("---separator---")  
 
-  
-# # Skipping vowels from a text
-# text = "CoderAcademy"
-# vowels = "aeiouAEIOU"
+# Skipping vowels from a text
+text = "CoderAcademy"
+vowels = "aeiouAEIOU"
 
-# for each in text:
-#     if each in vowels:
-#         continue
-#     print(each, end=" ")
+for each in text:
+    if each in vowels:
+        continue
+    print(each, end=" ")
 
-# print()
+print("---separator---")
 
 
-# # Stop when there is 'stop'
-# signals = ['start', 'halt', 'continue', 'start', 'stop', 'hold', 'halt', 'go']
 
-# for each in signals:
-#     if each == 'stop':
-#         break
-#     print(each)
+# Stop when there is 'stop'
+signals = ['start', 'halt', 'continue', 'start', 'stop', 'hold', 'halt', 'go']
+
+for each in signals:
+    if each == 'stop':
+        break
+    print(each)
