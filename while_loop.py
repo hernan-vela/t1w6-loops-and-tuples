@@ -1,29 +1,20 @@
-# Counting coins in Piggy bank
+no_of_coins = 6
 
-# Do not practice this idea
-No_of_coins = 6
-
-# print("Counted 1!")
-# no_of_coins -= 1
-
-# print("Counted 1!")
-# no_of_coins -= 1
-
-# print("Counted 1!")
-# no_of_coins -= 1
-
-# print("Counted 1!")
-# no_of_coins -= 1
-
-# print("Counted 1!")
-# no_of_coins -= 1
+while no_of_coins > 0:
+    print(no_of_coins)
+    no_of_coins = no_of_coins - 1
+else:
+    print("No coins in the piggy bank")
 
 
-# # Better Implementation
-# while no_of_coins > 0:
-#     print("Counted 1!")
-#     no_of_coins -= 1
 
-while No_of_coins > 0:
-    print("Counted 1!")
-    No_of_coins = No_of_coins - 1
+
+# Initialise the variable. This means set a name for the variable and add a value:
+bank_balance = 1000
+
+# Set the loop, what to do and when to stop:
+while bank_balance >= 100:
+    print(f"Your bank balance is {bank_balance}")
+    bank_balance -= 100
+else:
+    print(f"Your balance is too low. Make a deposit")
